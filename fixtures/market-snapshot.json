@@ -1,52 +1,52 @@
 {
-  "timestamp": "2024-03-31T10:30:00Z",
-  "sources": {
-    "bitfinex": {
-      "timestamp": "2024-03-31T10:30:00Z",
-      "symbol": "BTCUSD",
-      "bid": 71250.50,
-      "ask": 71251.75,
-      "mid": 71251.125,
-      "volume24h": 48000000,
-      "change24h": 2.3
+    "timestamp": "2024-03-31T10:30:00Z",
+    "sources": {
+        "bitfinex": {
+            "timestamp": "2024-03-31T10:30:00Z",
+            "symbol": "BTCUSD",
+            "bid": 71250.50,
+            "ask": 71251.75,
+            "mid": 71251.125,
+            "volume24h": 48000000,
+            "change24h": 2.3
+        },
+        "mempool": {
+            "timestamp": "2024-03-31T10:30:00Z",
+            "fast": 42,
+            "standard": 28,
+            "slow": 10,
+            "mempoolSize": 150000000,
+            "txCount": 3250,
+            "recommendedFee": 28
+        },
+        "coinbase": {
+            "timestamp": "2024-03-31T10:30:00Z",
+            "exchange": "Coinbase",
+            "volume24h": 32000000,
+            "priceUsd": 71250.00,
+            "priceChangePercent24h": 2.25,
+            "high24h": 72100.00,
+            "low24h": 69500.00
+        }
     },
-    "mempool": {
-      "timestamp": "2024-03-31T10:30:00Z",
-      "fast": 42,
-      "standard": 28,
-      "slow": 10,
-      "mempoolSize": 150000000,
-      "txCount": 3250,
-      "recommendedFee": 28
+    "aggregated": {
+        "price": {
+            "bid": 71250.50,
+            "ask": 71251.75,
+            "mid": 71251.125,
+            "confidence": "high"
+        },
+        "fees": {
+            "fast": 42,
+            "standard": 28,
+            "slow": 10,
+            "recommendedForTransaction": 28
+        },
+        "market": {
+            "volume24h": 40000000,
+            "priceChangePercent24h": 2.25,
+            "volatility": "low"
+        }
     },
-    "coinbase": {
-      "timestamp": "2024-03-31T10:30:00Z",
-      "exchange": "Coinbase",
-      "volume24h": 32000000,
-      "priceUsd": 71250.00,
-      "priceChangePercent24h": 2.25,
-      "high24h": 72100.00,
-      "low24h": 69500.00
-    }
-  },
-  "aggregated": {
-    "price": {
-      "bid": 71250.50,
-      "ask": 71251.75,
-      "mid": 71251.125,
-      "confidence": "high"
-    },
-    "fees": {
-      "fast": 42,
-      "standard": 28,
-      "slow": 10,
-      "recommendedForTransaction": 28
-    },
-    "market": {
-      "volume24h": 40000000,
-      "priceChangePercent24h": 2.25,
-      "volatility": "low"
-    }
-  },
-  "validationErrors": []
+    "validationErrors": []
 }

@@ -1,3 +1,0 @@
-3f443d1 Initial commit: Bitcoin market scraper with Apify actors, data aggregation, and Coin Smith integration
----
-3448 article/ARTICLE.md

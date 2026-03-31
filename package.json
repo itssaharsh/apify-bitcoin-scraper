@@ -1,42 +1,42 @@
 {
-  "name": "apify-bitcoin-scraper",
-  "version": "1.0.0",
-  "description": "Bitcoin market scraper using Apify + Crawlee, integrated with Coin Smith PSBT builder",
-  "main": "dist/index.js",
-  "scripts": {
-    "dev": "ts-node src/index.ts",
-    "build": "tsc",
-    "test": "jest",
-    "scrape:all": "node src/run-all-actors.js",
-    "aggregate": "echo 'Aggregating data...' && node src/build-transaction.js",
-    "build-psbt": "node src/build-transaction.js",
-    "lint": "eslint src --ext .ts"
-  },
-  "keywords": [
-    "apify",
-    "crawlee",
-    "bitcoin",
-    "psbt",
-    "scraping",
-    "market-data"
-  ],
-  "author": "Developer",
-  "license": "MIT",
-  "dependencies": {
-    "apify": "^3.1.0",
-    "crawlee": "^3.7.0",
-    "axios": "^1.6.0",
-    "sqlite": "^5.0.0",
-    "typescript": "^5.3.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.0.0",
-    "@types/jest": "^29.0.0",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint": "^8.0.0",
-    "jest": "^29.0.0",
-    "ts-jest": "^29.0.0",
-    "ts-node": "^10.9.0"
-  }
+    "name": "apify-bitcoin-scraper",
+    "version": "1.0.0",
+    "description": "Bitcoin market scraper using Apify + Crawlee, integrated with Coin Smith PSBT builder",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "ts-node src/index.ts",
+        "build": "tsc",
+        "test": "jest",
+        "scrape:all": "node src/run-all-actors.js",
+        "aggregate": "echo 'Aggregating data...' && node src/build-transaction.js",
+        "build-psbt": "node src/build-transaction.js",
+        "lint": "eslint src --ext .ts"
+    },
+    "keywords": [
+        "apify",
+        "crawlee",
+        "bitcoin",
+        "psbt",
+        "scraping",
+        "market-data"
+    ],
+    "author": "Developer",
+    "license": "MIT",
+    "dependencies": {
+        "apify": "^3.1.0",
+        "crawlee": "^3.7.0",
+        "axios": "^1.6.0",
+        "sqlite": "^5.0.0",
+        "typescript": "^5.3.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@types/jest": "^29.0.0",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "eslint": "^8.0.0",
+        "jest": "^29.0.0",
+        "ts-jest": "^29.0.0",
+        "ts-node": "^10.9.0"
+    }
 }
