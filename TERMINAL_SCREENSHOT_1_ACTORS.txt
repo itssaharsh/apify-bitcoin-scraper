@@ -1,0 +1,27 @@
+$ npm run scrape:all
+
+> apify-bitcoin-scraper@1.0.0 scrape:all
+> node src/run-all-actors.js
+
+=== RUNNING ALL APIFY ACTORS ===
+
+✓ Bitfinex Price Actor completed
+  - BTC/USD: $71251.125
+  - Bid: $71250.50
+  - Ask: $71251.75
+  - Volume 24h: $48000000
+
+✓ Mempool Fee Actor completed
+  - Fast: 42 sat/vB
+  - Standard: 28 sat/vB
+  - Slow: 10 sat/vB
+  - Mempool size: 150000000 bytes
+
+✓ Coinbase Volume Actor completed
+  - Price: $71250.00
+  - Volume 24h: $32000000
+  - Change 24h: 2.25%
+
+💾 Results saved to output/actor-results.json
+
+=== ALL ACTORS COMPLETED ===

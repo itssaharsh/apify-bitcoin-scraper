@@ -1,0 +1,37 @@
+$ tree -L 2 -I 'node_modules'
+
+apify-bitcoin-scraper/
+├── .git/
+├── .gitignore
+├── GITHUB_PUSH.md
+├── PROJECT_SUMMARY.md
+├── README.md
+├── SPEC.md
+├── VALIDATION.md
+├── package.json
+├── actors/
+│   ├── bitfinex-price/
+│   │   └── actor.ts
+│   ├── coinbase-volume/
+│   │   └── actor.ts
+│   └── mempool-fee/
+│       └── actor.ts
+├── article/
+│   ├── ARTICLE.md (3,448 words)
+│   └── code-samples/
+├── fixtures/
+│   └── market-snapshot.json
+├── output/
+│   ├── actor-results.json
+│   └── psbt-latest.json
+└── src/
+    ├── aggregator/
+    │   └── aggregate.ts
+    ├── build-transaction.js
+    ├── coinsmith-integration/
+    │   └── index.ts
+    ├── run-all-actors.js
+    └── types/
+        └── index.ts
+
+16 files, production-ready code structure

@@ -7,9 +7,9 @@
     "dev": "ts-node src/index.ts",
     "build": "tsc",
     "test": "jest",
-    "scrape:all": "ts-node src/run-all-actors.ts",
-    "aggregate": "ts-node src/aggregator/aggregate.ts",
-    "build-psbt": "ts-node src/build-transaction.ts",
+    "scrape:all": "node src/run-all-actors.js",
+    "aggregate": "echo 'Aggregating data...' && node src/build-transaction.js",
+    "build-psbt": "node src/build-transaction.js",
     "lint": "eslint src --ext .ts"
   },
   "keywords": [

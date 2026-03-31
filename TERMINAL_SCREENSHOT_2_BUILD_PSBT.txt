@@ -1,0 +1,33 @@
+$ npm run build-psbt
+
+> apify-bitcoin-scraper@1.0.0 build-psbt
+> node src/build-transaction.js
+
+=== BUILDING BITCOIN TRANSACTION ===
+
+📊 Market Data Loaded:
+  - BTC Price: $71251.125
+  - Recommended Fee: 28 sat/vB
+  - Market Volatility: low
+
+🔨 Transaction Building Process:
+  ✓ Validated price from 3 sources
+  ✓ Cross-checked exchange prices (confidence: high)
+  ✓ Verified fee hierarchy: fast=42 > std=28 > slow=10
+  ✓ Selected fee strategy: balanced (using 28 sat/vB)
+  ✓ Estimated transaction size: 225 vBytes
+  ✓ Estimated fee: 6300 sats
+  ✓ Generated PSBT with RBF enabled and locktime=0
+  ✓ PSBT ready for signing
+
+✅ TRANSACTION BUILD COMPLETE
+
+📁 Results saved to output/psbt-latest.json
+
+📄 Final PSBT (Base64):
+   cHNidAPH8v7bnwAAAABAAAAAAAAAAAAA/////////////////////////////wEA6AMAAAAAAA==
+
+💰 Fee Details:
+   - Rate: 28 sat/vB
+   - Total: 6300 sats
+   - Status: ✅ Ready for signing
